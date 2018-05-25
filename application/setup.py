@@ -71,8 +71,9 @@ setup(
         'dev': dev_requirements,
     },
     install_requires=requires,
+    dependency_links=['http://github.com/mazz/websauna/tarball/master#egg=websauna[utils,celery,notebook]'],
     entry_points="""\
         [paste.app_factory]
         main = application.application:main
-    """,
+    """
 )
