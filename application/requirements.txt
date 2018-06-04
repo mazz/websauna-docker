@@ -1,3 +1,3 @@
--e git+https://github.com/mazz/websauna.git#egg=websauna[utils,celery,notebook]
+git+https://github.com/mazz/websauna.git#egg=websauna[utils,celery,notebook]
 #-e git+git@github.com:mazz/websauna.git@master#egg=websauna
 #websauna[dev,celery,utils,notebook]
